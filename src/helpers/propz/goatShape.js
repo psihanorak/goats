@@ -6,7 +6,7 @@ const goatShape = PropTypes.shape({
   age: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   imgUrl: PropTypes.string.isRequired,
-  isBusy: PropTypes.bool.isRequired,
+  isTaken: PropTypes.bool.isRequired,
 });
 
 export default { goatShape };
